@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>GLF Features for Median Filtering Forensics</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>GLF Features for Median Filtering Forensics</h1>
+
+<p>The authors of the papers [1] and [2], provide this MATLAB toolbox only for research purposes
+(evaluation and comparison of this method with other methods).</p>
+
+<p>It contains:</p>
+
+<ul>
+<li><code>GLF_Chen.m</code>:    main function to extract the GLF feature proposed in [1] and [2]</li>
+<li><code>example.m</code>:     example of use of the method</li>
+<li><code>utilis</code> folder: some mex functions that are needed for GLF_Chen.</li>
+<li><code>README.md</code>:     this readme info</li>
+</ul>
+
+<p>If you have any doubts, please contact with Chenglong at <a href="mailto:c.chenglong@gmail.com">c.chenglong@gmail.com</a>.</p>
+
+<h2>Reference</h2>
+
+<p>[1] Chenglong Chen, Jiangqun Ni, Rongbin Huang and Jiwu Huang,
+  &ldquo;Blind median filtering detection using statistics in difference
+  domain,&rdquo; in <em>Proc. 14th Int. Conf. Inf. Hiding</em>, May 2012, pp. 1-15.</p>
+
+<p>[2] Chenglong Chen, Jiangqun Ni, and Jiwu Huang, &ldquo;Blind Detection
+  of Median Filtering in Digital Images: A Difference Domain
+  Based Approach,&rdquo; <em>IEEE Trans. Image Process.</em>, vol. 22, no. 12,
+  pp. 4699 - 4710, Dec. 2013.</p>
+
+<h2>How to Cite GLF</h2>
+
+<p>Please cite the following paper if you are using this toolbox:</p>
+
+<p>Chenglong Chen, Jiangqun Ni, and Jiwu Huang, &ldquo;Blind Detection
+  of Median Filtering in Digital Images: A Difference Domain
+  Based Approach,&rdquo; <em>IEEE Trans. Image Process.</em>, vol. 22, no. 12,
+  pp. 4699 - 4710, Dec. 2013. Software available at <a href="http://www.csie.ntu.edu.tw/%7Ecjlin/libsvm">http://www.csie.ntu.edu.tw/~cjlin/libsvm</a></p>
+
+<p>The bibtex format is</p>
+
+<p>@ARTICLE{chen-etal-tip-13,<br />
+  author={Chenglong Chen and Jiangqun Ni and Jiwu Huang},<br />
+  journal={IEEE Trans. Image Process.},<br />
+  title={Blind Detection of Median Filtering in Digital Images: A Difference Domain Based Approach},<br />
+  year={2013},<br />
+  month={Dec},<br />
+  volume={22},<br />
+  number={12},<br />
+  pages={4699-4710},<br />
+}</p>
+
+</body>
+
+</html>
+
