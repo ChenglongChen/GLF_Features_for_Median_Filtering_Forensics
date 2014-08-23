@@ -8,6 +8,7 @@ It contains:
 
 - `GLF_Chen.m`:    main function to extract the GLF feature proposed in [1] and [2]
 - `example.m`:     example of use of the method
+- `Lena.tiff`:     test image (downloaded from the USC-SIPI image database)
 - `utilis` folder: some mex functions that are needed for GLF_Chen.
 - `README.md`:     this readme info
 
