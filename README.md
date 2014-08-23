@@ -32,7 +32,7 @@ Please cite the following paper if you are using this toolbox:
 Chenglong Chen, Jiangqun Ni, and Jiwu Huang, "Blind Detection
   of Median Filtering in Digital Images: A Difference Domain
   Based Approach," *IEEE Trans. Image Process.*, vol. 22, no. 12,
-  pp. 4699 - 4710, Dec. 2013. Software available at http://www.csie.ntu.edu.tw/~cjlin/libsvm
+  pp. 4699 - 4710, Dec. 2013. Software available at https://github.com/ChenglongChen/GLF_Features_for_Median_Filtering_Forensics
 
 The bibtex format is
 
@@ -46,9 +46,3 @@ The bibtex format is
   number={12},<br />
   pages={4699-4710},<br />
 }
-
-  
-
-
-
-
